@@ -1,0 +1,109 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.grid {
+    padding: 100px 250px;
+}
+
+.grid-fluid {
+    padding: 5px 250px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    margin-top: 75px;
+}
+
+.column {
+    width: 50%;
+}
+
+.content {
+    padding: 25px 50px;
+    border: 1px solid black;
+}
+
+.bg_blue {
+    background-color: #DBECFF;
+}
+
+.bg_yellow {
+    background-color: #FFEFD7;
+}
+
+.bg_turquesa {
+    background-color: #D6F3F3;
+}
+
+.bg_blue2 {
+    background-color: #CBD7E4;
+}
+
+.title {
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+.container-fluid {
+    background-color: #DBECFF;
+    margin: 0;
+}
+
+.space {
+    padding: 50px 0px;
+    margin: 0px;
+    gap: 30px;
+}
+
+.img-space{
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.grid-clear {
+    padding: 20px 250px;
+}
+
+.project-description {
+    margin-bottom: 100px;
+}
+
+.subtitle{
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #F4F6FC;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.content-footer {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.content-footer p {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content-footer p  a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container-footer {
+    gap: 0;
+}
+
+.column:not(:last-child) {
+    border-right: 2px solid #E7ECF4; 
+  }
