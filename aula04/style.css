@@ -115,3 +115,100 @@ td {
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+
+
+/*********************** Página Resumo Prova *******************************/
+
+.row-flex {
+    display: flex;
+}
+
+.column-60 {
+    width: 60%;
+}
+
+.column-40 {
+    width: 40%;
+    border: 1px solid green;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.main-content {
+    padding: 50px 0px 0px 45px;
+}
+
+.title{
+    margin-bottom: 25px;
+}
+
+.description {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.sidebar {
+    padding: 0px 70px;
+    text-align: left;
+}
+
+.sidebar h4, .sidebar h3 {
+    margin-top: 30px;
+}
+
+.sidebar h3, .container-events h3 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+.sidebar h3::after {
+    content: "";
+    width: 5%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+.results {
+    color: #8D8282;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.blocks {
+    margin-top: 30px;
+}
+
+.block-default {
+    background-color: #009b7b;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+    height: 75px;
+}
+
+.gap-blocks {
+    gap: 5px;
+}
+
+.container-events{
+    width: 50%;
+}
+
+.column-events-20 {
+    width: 20%;
+}
+
+.column-events-80 {
+    width: 80%;
+}
+
+.gap-events {
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.location {
+    display: inline-block;
+}
