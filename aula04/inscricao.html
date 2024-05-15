@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Inscrição</title>
+
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ângelo Santos">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/33a386ae77.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <img src="./assets/image-header.jpeg" alt="Passadiços do Paiva" width="100%">
+    </header>
+
+    <div class="container">
+        <div class="row row-flex">
+            <div class="column-60">
+                <div class="main-content">
+                    <h1 class="title space-bottom">Formulário de inscrição</h1>
+                    
+                    <form>
+                        <h3>Nome</h3>
+                        <div class="row row-flex space-around">
+                            <div class="form-name">
+                                <input type="text" name="name" id="first-name" placeholder="Primeiro" required>
+                            </div>
+                            <div class="form-name">
+                                <input type="text" name="name" id="second-name" placeholder="Último" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h3>Email</h3>
+                            <input type="email" name="email" id="input-email" placeholder="email@email.com" required>
+                            <h3>Data Nascimento</h3>
+                            <input type="email" name="date" id="born-date" required>
+                            <h3>Restrições alimentares</h3>
+                            <div class="input-radio">
+                                <input type="radio" id="option1" name="options" value="option-1">
+                                <label for="option1">Opção 1</label><br>
+                                <input type="radio" id="option2" name="options" value="option-3">
+                                <label for="option2">Opção 2</label><br>
+                                <input type="radio" id="option3" name="options" value="option-2">
+                                <label for="option3">Opção 3</label>
+                            </div>
+                            <h3>Complementos</h3>
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="checkbox1" name="checkboxs" value="checkbox-1">
+                                <label for="checkbox1">Opção 1</label><br>
+                                <input type="checkbox" id="checkbox2" name="checkboxs" value="checkbox-3">
+                                <label for="checkbox2">Opção 2</label><br>
+                                <input type="checkbox" id="checkbox3" name="checkboxs" value="checkbox-2">
+                                <label for="checkbox3">Opção 3</label>
+                            </div>
+                            <input type="submit" value="Inscrever" class="btn-inscrever">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <aside class="column-40 space-bottom">
+                <div class="sidebar">
+                    <img src="./assets/paisagem.jpeg" alt="Paisagem" width="100%">
+                    <h4>Duração</h4>
+                    <p class="results">3:00:00</p>
+                    <h4>Distância</h4>
+                    <p class="results">24 Km</p>
+                    <h3>Ligações Rápidas</h3>
+                    <div class="blocks">
+                        <div class="block-default">
+                            <img src="https://www.cm-arouca.pt/wp-content/uploads/2021/11/bupi.png" alt="BUPi" width="14%">
+                            <p>BUPi</p>
+                        </div>
+                        <div class="row row-flex gap-blocks">
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2019/04/complexos_desportivos.png" alt="Complexos Desportivos" width="25%">
+                                    <p>Complexos Desportivos</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2022/07/icon-incendios-02.png" alt="Perigo de Incêndio Rural" width="35%">
+                                    <p>Perigo de Incêndio Rural</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-flex gap-blocks">
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2019/04/contactos_municipio.png" alt="Contactos" width="45%">
+                                    <p>Contactos</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2019/09/books.png" alt="Biblioteca" width="45%">
+                                    <p>Biblioteca</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2021/05/orcamento-participativo-icon.png" alt="Orçamento Participativo" width="45%">
+                                    <p>Orçamento Participativo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-flex gap-blocks">
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2019/04/via_verde.png" alt="Contactos" width="45%">
+                                    <p>Via Verde Investimento</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2019/04/urbanismo.png" alt="Contactos" width="45%">
+                                    <p>Urbanismo</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="block-default">
+                                    <img src="https://www.cm-arouca.pt/wp-content/uploads/2022/01/Icon-A-Digital-01.png" alt="Contactos" width="45%">
+                                    <p>Arquivo Municipal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-footer">
+            <div class="column">
+                <div class="left-footer">
+                    <h3>Menu</h3>
+                    <nav>
+                        <ul class="menu-footer">
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Resultados</a></li>
+                            <li><a href="#">Edições anteriores</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-media">
+                        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="copy-right">
+                        <p>Todos os direitos reservados &copy; 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column column-center">
+                <div class="right-footer">
+                    <h3 class="heading-nl">Newsletter</h3>
+                    <form>
+                        <input type="email" placeholder="email" class="input-email"><br>
+                        <input type="checkbox" name="privacy-policy" >
+                        <label for="privacy-policy" class="privacy-policy">Li e aceito a política de provacidade</label><br>
+                        <input type="submit" value="subscrever" class="btn-submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
