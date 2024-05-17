@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Donation</title>
+
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Ângelo Santos">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <form>
+        <div class="section-value">
+            <div class="value">
+                <p class="value-donation">2€</p>
+            </div>
+            <input type="range" id="volume" name="volume" min="0" max="11" width="100%" />
+            <p class="value-description">Doação mínima de 1€</p>
+        </div>
+        <div class="row section-switch">
+            <div class="toggle-switch">
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+            </div>
+            <p class="switch-description">Quero suportar as taxas da transação</p>
+        </div>
+        <p class="switch-description">O PayPal tem uma taxa de 3.49% sobre o valor total, mais um custo fixo de 0.42€</p>
+        <div class="row methods-payment">
+            <div class="mbway">
+                <img src="/assets/mbway.png" alt="MBway">
+            </div>
+            <div class="paypal">
+                <img src="/assets/paypal.png" alt="Paypal">
+            </div>
+            <div class="paysafecard">
+                <img src="/assets/paysafecard.png" alt="Paysafecard">
+            </div>
+        </div>
+        <div class="row section-amount">
+            <p class="amount-description">streamer vai receber</p>
+            <p class="amount">1,77€</p>
+        </div>
+        <div class="row phone-number">
+            <img src="/assets/portugal.png" alt="Bandeira pais" height="24px">
+            <select name="paises" id="paises">
+                <option value="portugal">+351</option>
+                <option value="espanha">+34</option>
+                <option value="franca">+33</option>
+              </select>
+            <input type="tel" id="phone" name="phone" placeholder="910 000 000" required />
+        </div>
+        <div class="message">
+            <textarea name="message" id="message" placeholder="Mensagem"></textarea>
+            <p class="warnig">70 caracteres restantes</p>
+        </div>
+        <div class="consent">
+            <div class=" row privacy-policy">
+                <input type="checkbox" id="privacy-policy" name="privacy-policy" />
+                <label for="privacy-policy">Aceito a política de privacidade e concordo que não há reembolso da doação</label>
+            </div>
+            <div class="row marketing">
+                <input type="checkbox" id="privacy-policy" name="privacy-policy" />
+                <label for="privacy-policy">Aceito que ......... marketing</label>
+            </div>
+        </div>
+        <div class="section-submit">
+            <input type="submit" id="btn-submit" value="Doar 2€">
+        </div>
+    </form>
+
+</body>
+</html>
