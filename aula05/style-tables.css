@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 1px solid #A593FF;
+    padding-bottom: 25px;
+}
+
+th img {
+    width: 150px;
+}
+
+td {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 170px;
+    border-bottom: 1px solid #A593FF;
+}
+
+td:first-child {
+    border-right: 1px solid #A593FF; 
+  }
