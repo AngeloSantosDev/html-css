@@ -10,14 +10,14 @@ section {
 
 .position {
     position: absolute;
-    left: 12%;
+    left: 100px;
 }
 
 .top {
     position: absolute;
     background-color: #AFE241;
-    left: 5%;
-    top: 6%;
+    left: 50px;
+    top: 50px;
     z-index: 10;
 }
 
@@ -33,8 +33,8 @@ section {
     border-radius: 50%;
     background-color: #177D15;
     position: absolute;
-    left: 25%;
-    top: 5%;
+    left: 225px;
+    top: 25px;
 }
 
 .quadrado {
@@ -42,7 +42,7 @@ section {
     height: 200px;
     background-color: #AFE241;
     position: absolute;
-    left: 7%;
+    left: 40px;
 }
 
 .quadrado-roxo {
@@ -50,8 +50,8 @@ section {
     height: 200px;
     background-color: #9148CB;
     position: absolute;
-    top: 15%;
-    left: 15%;
+    top: 80px;
+    left: 150px;
 }
 
 .rectangulo-vermelho {
@@ -59,8 +59,8 @@ section {
     height: 50px;
     background-color: #CE1A1A;
     position: absolute;
-    left: 13%;
-    top: 34%;
+    left: 130px;
+    top: 170px;
 }
 
 .circulo-vermelho {
@@ -69,8 +69,8 @@ section {
     background-color: #CE1A1A;
     border-radius: 50%;
     position: absolute;
-    left: 45%;
-    top: 34%;
+    left: 450px;
+    top: 170px;
 }
 
 .ractangulo-vertical {
@@ -78,5 +78,5 @@ section {
     height: 200px;
     background-color: #4FB9A6;
     position: absolute;
-    left: 33%;
+    left: 300px;
 }
