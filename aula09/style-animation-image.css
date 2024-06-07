@@ -1,0 +1,17 @@
+* {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+
+}
+
+.row {
+    display: flex;
+}
