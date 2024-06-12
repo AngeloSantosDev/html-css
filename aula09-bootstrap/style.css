@@ -43,6 +43,14 @@ html, body {
     color: #868a8d;
 }
 
-.number-indice {
+.number-indice, .heading-indice {
     color: #57a0d7;
+}
+
+.description-indice {
+    font-size: 14px;
+}
+
+.text-secondary:hover {
+    color: #000000 !important;
 }
