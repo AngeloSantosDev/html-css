@@ -1,0 +1,112 @@
+nav a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+
+img {
+    pointer-events: none;
+}
+
+.bg-image {
+    background-image: url('/assets/Hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.default-button {
+    text-decoration: none;
+    padding: 10px 65px;
+    color: #fff;
+    border-radius: 35px;
+}
+
+.btn-blue {
+    background-color: #0540f2;
+}
+
+.btn-outline {
+    border: 1px solid #fff;
+}
+
+/* About Us */
+
+#about-us, #our-course, #our-admission, #our-blog, #contact-us {
+    padding-top: 120px;
+    background-color: #EAEAEA;
+}
+
+.title-about-us, .title-our-course, .title-our-blog {
+    color: #0540F2;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 30px 0px;
+}
+
+.box-student {
+    padding: 30px;
+}
+
+.number{
+    color: #0540F2;
+}
+
+.box-blue {
+    background-color: #0540F2;
+    border-radius: 35px;
+}
+
+/*  */
+
+.checkbox {
+    margin-left: 70px;
+    line-height: 50px;
+}
+
+.checkbox::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /*border-radius: 10px;
+    background-color: #0540F2;*/
+    left: 10px;
+    background-image: url('/assets/check.png');
+}
+
+#our-admission {
+    padding-bottom: 100px;
+}
+
+/* */
+
+#testimonial, footer {
+    background-color: #0540F2;
+}
+
+.carousel-caption {
+    position: relative !important;
+    right: 0 !important;
+    left: 0 !important;
+}
+
+/* Blog */
+
+.blog-card {
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.title-blog {
+    color: #0540F2;
+}
+
+footer a {
+    text-decoration: none;
+}
