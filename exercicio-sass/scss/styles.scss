@@ -1,0 +1,50 @@
+@import "variables";
+@import "mixins";
+
+
+.noticias-container {
+    width: 700x;
+    margin: 0 auto;
+    display: flex;
+    
+    .coluna-esquerda {
+        width: 200px;
+        padding: 25px 100px 25px 25px;
+        background-color: $backgroundSidebar;
+        @include border;
+        @include border-radius(50px);
+        @include font-family;
+        
+        a {
+            text-decoration: none;
+            color: $linkColorSidebar;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            list-style: none;
+            padding-bottom: 15px;
+        }
+        
+    }
+    
+    .espacamento {
+        height: 300px;
+    }
+    
+    .coluna-direita {
+        padding: 0 25px;
+        background-color: $backgroundContent;
+        @include border;
+
+        a {
+            color: $linkColorContent;
+            text-decoration: none;
+        }
+    }
+    
+}

@@ -1,0 +1,43 @@
+/*
+  Cores
+*/
+.noticias-container {
+  width: 700x;
+  margin: 0 auto;
+  display: flex;
+}
+.noticias-container .coluna-esquerda {
+  width: 200px;
+  padding: 25px 100px 25px 25px;
+  background-color: #D9D9D9;
+  border: 2px solid black;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 20px 0px;
+}
+.noticias-container .coluna-esquerda a {
+  text-decoration: none;
+  color: blue;
+}
+.noticias-container .coluna-esquerda ul {
+  padding: 0;
+  margin: 0;
+}
+.noticias-container .coluna-esquerda ul li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+.noticias-container .espacamento {
+  height: 300px;
+}
+.noticias-container .coluna-direita {
+  padding: 0 25px;
+  background-color: #F5F5F5;
+  border: 2px solid black;
+}
+.noticias-container .coluna-direita a {
+  color: red;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
