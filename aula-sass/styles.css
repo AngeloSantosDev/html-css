@@ -1,0 +1,23 @@
+.tempo {
+  background: black;
+}
+.tempo h2 {
+  color: white;
+}
+.tempo h2:hover {
+  color: red;
+  transition: all 0.3s;
+}
+.tempo h3 {
+  color: white;
+}
+.tempo-black h2 {
+  color: black;
+}
+.tempo-black h2:hover {
+  color: red;
+  transition: all 0.3s;
+}
+.tempo-black h3 {
+  color: black;
+}/*# sourceMappingURL=styles.css.map */

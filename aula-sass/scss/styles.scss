@@ -1,0 +1,29 @@
+.tempo {
+    background: black;
+
+    h2 {
+        color: white;
+
+        &:hover {
+            color: red;
+            transition: all 0.3s;
+        }
+    }
+
+    h3 {
+        color: white;
+    }
+
+    &-black {
+        h2 {
+            color: black;
+            &:hover {
+                color: red;
+                transition: all 0.3s;
+            }
+        }
+        h3 {
+            color: black;
+        }
+    }
+}
