@@ -1,0 +1,69 @@
+.button-default {
+  width: 183px;
+  height: 39px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.button-default.primary {
+  background-color: #7749F8;
+}
+.button-default.disabled {
+  background-color: #D4D3D3;
+}
+.button-default.hover {
+  background-color: #EF5DA8;
+}
+.button-default.active {
+  background-color: #7879F1;
+}
+
+.button-default-rounded {
+  width: 164px;
+  height: 32px;
+  padding: 5px 15px 10px 15px;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 15px;
+}
+.button-default-rounded.primary {
+  background-color: #082692;
+}
+.button-default-rounded.disabled {
+  background-color: #D4D3D3;
+}
+.button-default-rounded.hover {
+  background-color: #0A6BDD;
+}
+.button-default-rounded.active {
+  background-color: #1D88C3;
+}
+
+.btn-default {
+  width: 164px;
+  height: 32px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  padding: 4px 15px 10px 15px;
+  margin-bottom: 15px;
+}
+.btn-default.primeiro {
+  background-color: #082692;
+}
+.btn-default.segundo {
+  background-color: #4201FA;
+}
+.btn-default.terceiro {
+  background-color: #920873;
+}
+.btn-default.quarto {
+  background-color: #3C9208;
+}
+.btn-default.quinto {
+  background-color: #DD0A0A;
+}
+.btn-default.sexto {
+  background-color: #1D88C3;
+}/*# sourceMappingURL=styles.css.map */

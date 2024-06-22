@@ -1,0 +1,80 @@
+@import "mixins";
+
+.button-default {
+    width:183px;
+    height: 39px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 15px;
+
+    &.primary {
+        background-color: #7749F8;
+    }
+
+    &.disabled {
+        background-color: #D4D3D3;
+    }
+
+    &.hover {
+        background-color: #EF5DA8;
+    }
+
+    &.active {
+        background-color: #7879F1;
+    }
+}
+
+.button-default-rounded {
+    width: 164px;
+    height: 32px;
+    padding: 5px 15px 10px 15px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 15px;
+
+    &.primary {
+        background-color: #082692;
+    }
+
+    &.disabled {
+        background-color: #D4D3D3;
+    }
+
+    &.hover {
+        background-color: #0A6BDD;
+    }
+
+    &.active {
+        background-color: #1D88C3;
+    }
+
+}
+
+.btn-default {
+    @include default-button;
+
+    &.primeiro {
+        background-color: #082692;
+    }
+
+    &.segundo {
+        background-color: #4201FA;
+    }
+
+    &.terceiro {
+        background-color: #920873;
+    }
+
+    &.quarto {
+        background-color: #3C9208;
+    }
+
+    &.quinto {
+        background-color: #DD0A0A;
+    }
+
+    &.sexto {
+        background-color: #1D88C3;
+    }
+}
