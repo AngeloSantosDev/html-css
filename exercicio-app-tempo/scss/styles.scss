@@ -1,0 +1,81 @@
+@import "variables";
+@import "typography";
+@import "mixin";
+
+body {
+    background: $bgBody;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    @include font-family-regular;
+    background-color: $bgContainer;
+    margin: 0 auto;
+    border-radius: 35px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    .first-column {
+        max-width: 190px;
+        width: 25%;
+        @include interior-space;
+        text-align: center;
+    }
+    
+    .second-column {
+        background-color: $bgColorSecondColumn;
+        width: 80%;
+        @include interior-space;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .search-city{
+                background-color: $bgContainer;
+                width: 200px;
+                height: 33px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding-right: 15px;
+            }
+
+            .card {
+                background-color: $bgContainer;
+                display: flex;
+                border-radius: 25px;
+                padding: 20px 20px 12px 0px;
+                width: 150px;
+                justify-content: space-around;
+
+                & img {
+                    pointer-events: none;
+                }
+
+                .details {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+
+                    
+
+                    & p {
+                        margin: 0px;
+                        font-weight: 600;
+                    }
+
+                    & .amount {
+                        font-size: 24px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
