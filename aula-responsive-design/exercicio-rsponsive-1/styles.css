@@ -1,0 +1,73 @@
+body {
+  background-color: #3FBAEE;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 96px;
+  margin-bottom: 25px;
+}
+.row .letter-a {
+  width: 80%;
+  background-color: #D99E05;
+  margin-right: 25px;
+}
+.row .letter-b {
+  width: 20%;
+  background-color: #D90505;
+}
+.row .letter-c {
+  width: 100%;
+  background-color: #0AD905;
+}
+.row .letter-d {
+  width: 25%;
+  background-color: #0534D9;
+  margin-right: 25px;
+}
+.row .letter-e {
+  width: 50%;
+  background-color: #0580D9;
+  margin-right: 25px;
+}
+.row .letter-f {
+  width: 25%;
+  background-color: #9505D9;
+}
+@media (max-width: 765px) {
+  .row .letter-a {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .row .letter-b {
+    width: 100%;
+    background-color: #0580D9;
+  }
+  .row .letter-c {
+    background-color: #D90505;
+  }
+}
+@media (min-width: 768px) and (max-width: 1140.98px) {
+  .row .letter-a {
+    width: 50%;
+    background-color: #F0E8D5;
+    color: #000;
+  }
+  .row .letter-b {
+    width: 50%;
+  }
+  .row .letter-c {
+    background-color: #8E1289;
+  }
+}
+
+@media (max-width: 765px) {
+  .row {
+    display: block;
+  }
+}/*# sourceMappingURL=styles.css.map */
